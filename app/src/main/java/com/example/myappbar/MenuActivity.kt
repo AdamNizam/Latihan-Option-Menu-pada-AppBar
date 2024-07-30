@@ -22,7 +22,7 @@ class MenuActivity : AppCompatActivity() {
                     searchBar.setText(searchView.text)
                     searchView.hide()
                     Toast.makeText(this@MenuActivity, searchView.text, Toast.LENGTH_SHORT).show()
-                    false
+                    true
                 }
         }
     }
